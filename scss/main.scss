@@ -1,0 +1,57 @@
+$color: teal;
+$back: white;
+$fonts: cursive;
+$size: 35px;
+$back-color: crimson;
+
+@import "_rest.scss";
+@import "_api.scss";
+body{
+    background: $color;
+}
+
+
+div{
+    background: $color;
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: $back;
+        font-size: $size;
+        font-family: $fonts;
+    }
+}
+@mixin around{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin center{
+    background-image: linear-gradient(red, pink);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 400px;
+}
+.container{
+    @include around;
+}
+.card{
+    @include center
+}
+.#{one}{
+    background-color: $back;
+}
+if condition{
+    <code>
+}else if condition{
+    <code>
+}else{
+    <code>
+}

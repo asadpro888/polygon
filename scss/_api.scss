@@ -1,0 +1,9 @@
+p{
+    color: $back;
+    font-family: $fonts;
+    font-size: $size;
+    transition: 0.5s ease-in-out;
+    &:hover{
+        background: $back-color;
+    }
+}

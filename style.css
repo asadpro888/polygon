@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span,a{
+    display: inline-block
+}
+/* body{
+    background-color: black;
+}
+.main{ */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.box{
+    width: 340px;
+    padding: 30px;
+    color: aliceblue;
+    font-family: cursive;
+    transform-style: preserve-3d;
+    background: transparent;
+    border-radius: 13px;
+    backdrop-filter: blur(100px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    box-shadow: 1px 2px 3px 4px rgba(255, 255, 255, 0.9);
+    transition: 2.3s ease-in;
+    animation: anime 1.9s ease infinite alternate;
+}
+.box:hover{
+    transform: rotate(360deg);
+    background-image: url(create-x-logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(1.5);
+}
+@keyframes anime{
+    0%{
+        opacity: 0;
+        transform: rotate(360deg) translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0) translateX(-0);
+    }
+}
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.box1{
+    width: 340px;
+    padding: 30px;
+    color: aliceblue;
+    font-family: cursive;
+    transform-style: preserve-3d;
+    background: transparent;
+    border-radius: 13px;
+    backdrop-filter: blur(100px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    box-shadow: 1px 2px 3px 4px rgba(255, 255, 255, 0.9);
+    transition: 2.3s ease-in;
+    animation: anime1 1.9s ease infinite alternate;
+}
+.box1:hover{
+    transform: rotate(360deg);
+    background-image: url(create-x-logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(1.5);
+}
+@keyframes anime1{
+    0%{
+        opacity: 0;
+        transform: rotate(360deg) translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(0) translateX(0);
+    }
+}
+.some{
+    background-color: white;
+}
+.img{
+    width: 400px;
+}
